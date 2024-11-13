@@ -1,7 +1,7 @@
 # Hello world whit Go
 ## Results
 <p align="center">
-   <img src="./Resultados/resultado1.png" alt="Hello from Go">
+   <img src="./resultados/resultado1.png" alt="Hello from Go">
 </p>
 
 This is a basic "Hello World" program built using the lenguage Go. It serves a simple web page that manipulates the DOM and displays a typical "Hello World" message to the user.
