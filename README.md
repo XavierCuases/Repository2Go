@@ -35,7 +35,7 @@ The link will be for the image to be able to download it
 docker pull xaviercuases/exercise2go
 ```
 > [!IMPORTANT]
-> Flask, by default, runs on port 5000 when using its built-in development server. This is intended for local development and testing purposes. If you need to change the port, Flask allows you to specify a different one when running the application.
+> Go, by default, runs on port 5000 when using its built-in development server. This is intended for local development and testing purposes. If you need to change the port, Flask allows you to specify a different one when running the application.
 ### Run image
 ```
 docker run --name <NEWCONTAINERNAME> -d -p 9000:8080 <IMAGENAME>
@@ -75,5 +75,7 @@ Auto-Deploy: Yes La aplicación se despliega automáticamente cuando se actualiz
 
 
 ![Generate Domain](./resultados/render3.png "Domain")
+
+## Link service PASS
 
 [Hello World](https://repository2go.onrender.com "click for visit")
