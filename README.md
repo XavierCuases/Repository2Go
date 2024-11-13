@@ -68,10 +68,7 @@ This project uses Go to run a web application on Render. Simply select "Go" duri
 > [!IMPORTANT]
 > Next, This project is configured to deploy on Render with the following settings:
 
-Build Command: go build -o main main.go  Compila el archivo main.go y crea un ejecutable llamado main.
-Pre-Deploy Command: (Opcional) Para realizar tareas previas al despliegue, como migraciones (actualmente vacío).
-Start Command: go run main.go Ejecuta el archivo main.go para iniciar la aplicación.
-Auto-Deploy: Yes La aplicación se despliega automáticamente cuando se actualiza el código o la configuración.
+The Build Command is go build -o main main.go, which compiles the main.go file and creates an executable named main. The Pre-Deploy Command is currently empty but can be used for tasks prior to deployment, such as migrations. The Start Command is go run main.go, which runs the main.go file to start the application. Auto-Deploy is enabled, meaning the application will be automatically deployed whenever the code or configuration is updated.
 
 
 ![Generate Domain](./resultados/render3.png "Domain")
