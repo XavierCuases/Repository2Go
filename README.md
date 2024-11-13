@@ -28,7 +28,7 @@ To run the application, open a terminal in the root directory of the project and
 
 ### Download image
 
-[ImagenPY](https://hub.docker.com/r/xaviercuases/exercise2go "click for visit")
+[ImagenGO](https://hub.docker.com/r/xaviercuases/exercise2go "click for visit")
 
 The link will be for the image to be able to download it
 ```
@@ -50,7 +50,7 @@ Open new window browser and search localhost:9000
 ## :light_rail: PAAS Deploy with docker (render)
 For its deployment in a PAAS we will rely on Render and its easy implementation thanks to its container management. 
 
-![Railway Service](./Resultados/render1.png "Service")
+![Railway Service](./resultados/render1.png "Service")
 
 This project is deployed on Render, which supports multiple programming languages:
 
@@ -63,7 +63,7 @@ Ruby
 Rust
 This project uses Go to run a web application on Render. Simply select "Go" during deployment, connect your repository, and follow Render’s setup instructions.
 
-![Build Container](./Resultados/render2.png "Build Configuration")
+![Build Container](./resultados/render2.png "Build Configuration")
 
 > [!IMPORTANT]
 > Next, This project is configured to deploy on Render with the following settings:
@@ -74,6 +74,6 @@ Start Command: go run main.go Ejecuta el archivo main.go para iniciar la aplicac
 Auto-Deploy: Yes La aplicación se despliega automáticamente cuando se actualiza el código o la configuración.
 
 
-![Generate Domain](./Resultados/render3.png "Domain")
+![Generate Domain](./resultados/render3.png "Domain")
 
 [Hello World](https://repository2go.onrender.com "click for visit")
